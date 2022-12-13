@@ -1,0 +1,24 @@
+<script>
+ 
+// JavaScript program to convert hours
+// into minutes and seconds
+ 
+// Function to convert hours
+    // into minutes and seconds
+    function ConvertHours(n) {
+        var minutes, seconds;
+ 
+        minutes = n * 60;
+        seconds = n * 3600;
+ 
+        document.write("Minutes = " + minutes + ", Seconds = " + seconds);
+    }
+ 
+    // Driver code
+     
+        var n = 5;
+        ConvertHours(n);
+ 
+// This code contributed by Rajput-Ji
+ 
+</script>
